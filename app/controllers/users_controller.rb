@@ -1,3 +1,4 @@
+#This controller is used for testing the jenkins works fine or not
 class UsersController < ApplicationController
   skip_before_action :authenticate_request #, only: [:register, :authenticate]
 
