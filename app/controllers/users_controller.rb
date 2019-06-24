@@ -12,7 +12,7 @@ class UsersController < ApplicationController
    end
  end
 
-
+ #for checking
  def register
   begin
     params.permit!
