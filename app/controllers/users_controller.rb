@@ -13,6 +13,7 @@ class UsersController < ApplicationController
  end
 
  #for checking
+ #
  def register
   begin
     params.permit!
