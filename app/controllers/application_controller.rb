@@ -5,6 +5,8 @@ class ApplicationController < ActionController::API
 
   include ExceptionHandler
 
+
+
   private
 
   def authenticate_request
