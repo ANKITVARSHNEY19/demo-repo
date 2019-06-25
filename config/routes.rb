@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   get 'questions_list', to: 'users#questions_list'
 
   post 'answer_list', to: 'users#answer_list'
+
+
+  get '*other', to: 'static#index'
 end
