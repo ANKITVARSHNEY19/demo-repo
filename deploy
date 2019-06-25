@@ -2,6 +2,7 @@
 ssh ubuntu@172.31.0.147 <<EOF     
   cd /home/ubuntu
   cd /var/www/html/dashabit_backend/backend/
-  git pull https://github.com/ANKITVARSHNEY19/demo-repo
+  #git pull https://github.com/ANKITVARSHNEY19/demo-repo
+  git pull origin master
   bundle install && rails db:migrate
 EOF
