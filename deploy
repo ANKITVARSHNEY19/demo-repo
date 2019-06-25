@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ubuntu@99.79.88.73 <<EOF     
+ssh ubuntu@172.31.0.147 <<EOF     
   cd /home/ubuntu
   cd cd /var/www/html/dashabit_backend/backend/
   git pull https://github.com/ANKITVARSHNEY19/demo-repo
